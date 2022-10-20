@@ -1,4 +1,5 @@
 import logging
+
 logging.basicConfig(level=logging.DEBUG)
 
 
@@ -17,6 +18,7 @@ for num in fibb_num:
 	if num % 2 == 0:
 		total += num
 
+# check
 # print(fibb_num)
 # print(total)
 
